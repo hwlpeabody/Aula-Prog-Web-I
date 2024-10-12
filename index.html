@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Tabelas</title>
+    
+</head>
+<body>
+    <h1>Tabela (Continuação)</h1>
+    <table>
+        <caption>Quadro de Medalhas Paralimpíadas Paris 2024</caption>
+        <thead>
+            <tr>
+                <th>Equipe</th>
+                <th>Ouro</th>
+                <th>Prata</th>
+                <th>Bronze</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>China</td>
+                <td>94</td>
+                <td>76</td>
+                <td>50</td>
+                <td>220</td>
+            </tr>
+            <tr>
+                <td>Grã-Betanha</td>
+                <td>49</td>
+                <td>44</td>
+                <td>31</td>
+                <td>124</td>
+            </tr>
+            <tr>
+                <td>Estados Unidos</td>
+                <td>36</td>
+                <td>42</td>
+                <td>27</td>
+                <td>105</td>
+            </tr>
+            <tr>
+                <td>Paises Baixos</td>
+                <td>27</td>
+                <td>17</td>
+                <td>12</td>
+                <td>56</td>
+            </tr>
+            <tr>
+                <td>Brasil</td>
+                <td>25</td>
+                <td>26</td>
+                <td>38</td>
+                <td>89</td>
+            </tr>
+        </tbody>
+        <!-- <tfoot></tfoot> -->
+    </table>
+
+    <h2>Mesclando Células adjacentes</h2>
+    <table>
+        <caption>Horário de Aulas</caption>
+        <thead>
+            <tr>
+                <th>Horário</th>
+                <th>Segunda</th>
+                <th>Quarta</th>
+                <th>Sexta</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>18:50</td>
+                <td>Banco de Dados II</td>
+                <td>Extensão</td>
+                <td>Programação Web I</td>
+            </tr>
+            <tr>
+                <td>20:20</td>
+                <td colspan="5">Intervalo</td>
+            </tr>
+            <tr>
+                <td>20:30</td>
+                <td>Banco de Dados II</td>
+                <td>Extensão</td>
+                <td>Programação Web I</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <caption>Tabela de produtos</caption>
+        <thead>
+            <tr>
+                <th>Categoria</th>
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Bebidas</td>
+                <td>Coca-cola 2L</td>
+                <td>R$9,50</td>
+            </tr>
+            <tr>
+                <td>Coca-cola 1,5L</td>
+                <td>R$7,50</td>
+            </tr>
+            <tr>
+                <td>Fanta Lata</td>
+                <td>R$3,25</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Laticínios</td>
+                <td>Manteiga</td>
+                <td>R$11,90</td>
+            </tr>
+            <tr>
+                <td>Queijo Mussarela</td>
+                <td>R$49,90</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <caption>Proximos Eventos</caption>
+        <thead>
+            <tr>
+                <th>Data</th>
+                <th>Evento</th>
+                <th>Local</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>20/10/24</td>
+                <td>Simpósio de Programação Web</td>
+                <td>Centro de Inovação</td>
+            </tr>
+            <tr>
+                <td>2/10/24</td>
+                <td rowspan="2">Hackaton</td>
+                <td rowspan="4">UMJ</td>
+            </tr>
+            <tr>
+                <td>23/10/24</td>
+            </tr>
+            <tr>
+                <td>03/11/24</td>
+                <td rowspan="2">Conferencia de Desenvolvimento de Software</td>
+            </tr>
+            <tr>
+                <td>04/10/24</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

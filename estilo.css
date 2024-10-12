@@ -1,0 +1,44 @@
+body{
+    background-color: #000000;
+}
+h1, h2, h3, h4, caption{
+    text-align: center;
+    color: #efbfdc;
+}
+table {
+    margin: 20px auto;
+}
+
+table, td, th{
+    border-collapse: collapse;
+    border: 1px solid #000000;
+}
+
+td, th{
+    padding: 3px 5px;
+    text-align: center;
+}
+
+th{
+    color: #f0aad4;
+}
+
+td:first-child{
+    text-align: left;
+}
+
+tr:nth-child(even){ /* ou tr:nth-child(2n)*/
+    background-color: #f0aad4;
+}
+tr:nth-child(odd){ /* ou tr:nth-child(2n -1)*/
+    background-color: #d477ae;
+}
+
+thead th{
+    background-color: #a32a73;
+}
+
+thead th{ /* Fixar a linha de cabeçalho ao rolar a página */
+    position: sticky;
+    top: 0;
+}
